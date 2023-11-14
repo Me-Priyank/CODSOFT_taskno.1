@@ -14,7 +14,7 @@ header {
 
 section {
     padding: 2em;
-    background-color: #fff;
+    background: linear-gradient(rgb(250, 195, 91) , white);
     margin: 20px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
@@ -24,10 +24,11 @@ img {
     height: 100vh;
     transition: 0.2s  ease-in-out;
     border-radius: 10px;
+    box-shadow: 2px 2px 20px rgb(35, 31, 31);
 }
 
 img:hover{
-    box-shadow: 2px 2px 20px rgb(35, 31, 31);
+    box-shadow: 5px 5px 30px rgb(35, 31, 31);
 }
 
 h2 {
@@ -63,5 +64,13 @@ footer {
     font-weight: 700;
 }
 .skill{
-    display: flex;
+  display: flex;
+}
+.card{
+    padding-left: 69px;
+}
+.card p {
+    transform: translateX(40px);
+    font-weight: 800;
+    font-size: large;
 }
