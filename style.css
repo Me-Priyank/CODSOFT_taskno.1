@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
    
-    background:linear-gradient(rgb(250, 195, 91),white,rgb(238, 190, 102),white)
+    background:linear-gradient(rgb(250, 195, 91),#fceabb,rgb(238, 190, 102),#fceabb)
 }
 
 header {
@@ -15,7 +15,7 @@ header {
 
 section {
     padding: 2em;
-    background: linear-gradient(rgb(250, 195, 91) , white);
+    background: linear-gradient(rgb(250, 195, 91) , #fceabb);
     margin: 20px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
