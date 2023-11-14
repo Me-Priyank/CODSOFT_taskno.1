@@ -17,11 +17,17 @@ section {
     background-color: #fff;
     margin: 20px 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    height: 100vh;
+    transition: 0.2s  ease-in-out;
+    border-radius: 10px;
+}
+
+img:hover{
+    box-shadow: 2px 2px 20px rgb(35, 31, 31);
 }
 
 h2 {
@@ -46,4 +52,16 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+.tt{
+    display: flex;
+}
+.tt p{
+    padding-left: 2rem ;
+    padding-top: 2rem ;
+    font-size:larger;
+    font-weight: 700;
+}
+.skill{
+    display: flex;
 }
